@@ -3,5 +3,10 @@
 cache.properties
 composer.lock
 
+
 # folders
 /vendor/
+build/*
+
+# keep the config files in the build folder
+!build/*.xml
