@@ -1,0 +1,24 @@
+{
+    "name"        : "corycollier/multistep_form",
+    "description" : "A Drupal module to allow for multi-step forms.",
+    "type"        : "drupal-module",
+    "require-dev" : {
+        "phpunit/phpunit"      : "^5.0",
+        "antecedent/patchwork" : "^1.3",
+        "pdepend/pdepend"      : "^2.2",
+        "phpmd/phpmd"          : "^2.3",
+        "theseer/phpdox"       : "dev-master",
+        "phploc/phploc"        : "~3.0@dev"
+    },
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name"  : "Cory Collier",
+            "email" : "corycollier@corycollier.com"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "prefer-stable" : true,
+    "require"           : {
+    }
+}
