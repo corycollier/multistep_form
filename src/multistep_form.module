@@ -1,1 +1,36 @@
 <?php
+/**
+ * @file
+ * Multistep Form Module
+ */
+
+/**
+ * Main entry point for multistep forms.
+ *
+ * This function recieves an array of callbacks related to forms. This is used,
+ * in conjunction with drupal form conventions, to call forms hooks when and
+ * where they are appropriate.
+ *
+ * @param array $forms
+ *   An array of main form callbacks.
+ *
+ * @return bool
+ *   TRUE if the registration is successful, false if not.
+ */
+function multistep_form_register(array $forms = array()) {
+  // Do it.
+}
+
+/**
+ * Implements hook_form().
+ */
+function multistep_form_form($node, array $form_state = array()) {
+ // Display the current form, only.
+}
+
+/**
+ * Implements hook_submit().
+ */
+function multistep_form_submit($node, array $form, array &$form_state) {
+  // Run the submit hook, for the current form, only.
+}
