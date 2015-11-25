@@ -1,0 +1,4 @@
+name = Multi Step Form
+description = Module to allow easy integration of multiple forms into a multi-step form
+package = Multistep Form
+core = 7.x

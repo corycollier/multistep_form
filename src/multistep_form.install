@@ -1,0 +1,19 @@
+<?php
+/**
+ * @file
+ * Multistep Form Installation.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function multistep_form_install() {
+
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function multistep_form_uninstall() {
+
+}
